@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		A41CE57D1EDF324A00F26F45 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41CE57C1EDF324A00F26F45 /* Task.swift */; };
-		A41CE57F1EDF339400F26F45 /* TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41CE57E1EDF339400F26F45 /* TodoList.swift */; };
 		A41CE5841EDF349B00F26F45 /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41CE5831EDF349B00F26F45 /* TasksViewController.swift */; };
 		A41CE5861EDF381400F26F45 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41CE5851EDF381400F26F45 /* Constants.swift */; };
 		A4F721EE1EDF2028001DB477 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F721ED1EDF2028001DB477 /* AppDelegate.swift */; };
@@ -21,7 +20,6 @@
 /* Begin PBXFileReference section */
 		26681754C7859C6DEDDFA2FE /* Pods-Todo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Todo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Todo/Pods-Todo.debug.xcconfig"; sourceTree = "<group>"; };
 		A41CE57C1EDF324A00F26F45 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
-		A41CE57E1EDF339400F26F45 /* TodoList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoList.swift; sourceTree = "<group>"; };
 		A41CE5831EDF349B00F26F45 /* TasksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
 		A41CE5851EDF381400F26F45 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		A4F721EA1EDF2028001DB477 /* Todo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,7 +48,6 @@
 			isa = PBXGroup;
 			children = (
 				A41CE57C1EDF324A00F26F45 /* Task.swift */,
-				A41CE57E1EDF339400F26F45 /* TodoList.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -254,7 +251,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A41CE5861EDF381400F26F45 /* Constants.swift in Sources */,
-				A41CE57F1EDF339400F26F45 /* TodoList.swift in Sources */,
 				A41CE5841EDF349B00F26F45 /* TasksViewController.swift in Sources */,
 				A41CE57D1EDF324A00F26F45 /* Task.swift in Sources */,
 				A4F721EE1EDF2028001DB477 /* AppDelegate.swift in Sources */,
